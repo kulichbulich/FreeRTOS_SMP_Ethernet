@@ -4,6 +4,8 @@ FreeRTOS **SMP** firmware for the HardPix board (Xilinx Zynq-7000, dual-core
 ARM Cortex-A9). It demonstrates symmetric multiprocessing across both cores and
 runs a small UDP echo server over Ethernet.
 
+Thanks to **Matth9814**: [github](https://github.com/Matth9814/FreeRTOS-Kernel-Community-Supported-Ports/tree/main/GCC/CORTEX_A9_Zynq7000).
+
 ## Overview
 
 - **Kernel:** FreeRTOS-Kernel **V11.3.0** in SMP mode (`configNUMBER_OF_CORES = 2`,
